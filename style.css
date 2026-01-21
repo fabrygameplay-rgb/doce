@@ -215,28 +215,4 @@ footer {
 
 /* =======================
    Responsive móviles <=480px
-======================= */
-@media (max-width: 480px) {
-    #sección1 { flex-direction: column; width: 95%; margin: auto; padding: 5px; }
-    #OutDrag, #InDrag { width: 90%; height: auto; margin: 10px auto; }
-    #bio2 { margin: 0; }
-    #InDrag2 { width: 60%; height: auto; margin: 10px auto; }
-    #bio3 { flex-direction: column; gap: 10px; }
-    #s1, #s2, #s3, #s5, #s6, #s7 { font-size: 18px; text-align: center; -webkit-text-stroke: 0.4px black; } 
-    #sección2 { flex-direction: column; gap: 10px; }
-    #s8 { margin-right: 0; }
-    #fotos { width: 95%; margin: 10px auto; }
-    #foto { width: 100%; height: auto; }
-    #descripción { max-width: 100%; font-size: 14px; margin-top: 5px; }
-
-    iframe { width: 100%; height: auto; margin: auto; }
-    #botones { flex-direction: column; width: 60%; margin: auto; gap: 10px; }
-
-    /* Tipografía JS y textos normales móviles */
-    .js-text, #cuadro3 > div[id^="ep"] p, #cuadro3 > div[id^="ep"] span {
-        font-family: 'Segoe UI', Arial, sans-serif;
-        font-size: 14px;
-        line-height: 1.4;
-        color: black;
-    }
-}
+======================= *
