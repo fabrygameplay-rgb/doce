@@ -176,11 +176,13 @@ iframe.animar { opacity: 1; transform: translateY(0); }
    Bio y cuadros
 ======================= */
 #bio { display: block; border: solid purple 1px; margin: -1px 0; padding: 2px; background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8); }
-#bio2 {     margin-left: 5%;  margin-right: 5%; max-width: 90%; margin-top: -0.4%};
+#bio2 { margin: 0 auto; max-width: 90%};
+
+#bio3 { display: flex; gap: 20px; justify-content: flex-start; }
+
 #p3 { text-align: center; color: goldenrod; font-family: 'Segoe UI'; font-size: 32px; border: solid purple 1px; margin: -1px 0; padding: 1px; }
 
 #InDrag2 { padding: 1px; width: 220px; height: 290px; margin: 0 30px; }
-#bio3 { display: flex; gap: 20%; }
 
 #cuadroDos main, #cuadroDos li, #cuadroDos li:hover, #cuadroDos main:hover { white-space: normal; word-wrap: break-word; overflow-wrap: break-word; line-height: 1.5; margin-left: 1%; cursor: default; color: black; }
 #ref li:hover { color: black; cursor: default; }
