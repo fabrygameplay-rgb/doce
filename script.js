@@ -220,4 +220,6 @@ function animarVideos(capIndex) {
     });
 }
 
-animarVideos(index);
+if (window.innerWidth <= 768) {
+    document.body.style.fontFamily = "Arial, Calibri, sans-serif";
+}

@@ -211,46 +211,44 @@ footer {
 
 #s7 + ul li a:hover { color: #FF8C00; text-decoration: underline; }
 
-@media (max-width: 1200px) {
-    #sección-1 {
-        margin-right: 40px;
+@media (max-width: 1024px) {
+    #OutDrag, #InDrag {
+        width: 260px;
+        height: auto;
     }
 
-    #botones {
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
+    #foto {
+        width: 360px;
+        height: auto;
     }
 
     iframe {
         width: 90%;
         height: auto;
-        aspect-ratio: 16 / 9;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     #contenedor-1 {
         flex-direction: column;
         align-items: center;
     }
 
     #sección-1 {
-        width: 90%;
+        width: 95%;
         height: auto;
-        margin: 0 0 20px 0;
-        justify-content: center;
+        margin: 0;
     }
 
-    #OutDrag,
-    #InDrag {
-        width: 260px;
+    #OutDrag, #InDrag {
+        width: 90%;
         height: auto;
+        margin: 5px 0;
     }
 
-    #sección-2 {
-        margin-left: 0;
+    #p1, #p2 {
         width: 90%;
+        margin: 5px auto;
     }
 
     #sección-3 {
@@ -265,66 +263,23 @@ footer {
 
     #descripción {
         max-width: 90%;
-    }
-
-    #botones {
-        width: 60%;
-    }
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 22px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    main {
         font-size: 14px;
     }
 
-    #OutDrag,
-    #InDrag {
-        width: 220px;
-    }
-
-    #InDrag2 {
-        width: 180px;
-        height: auto;
-        margin: 10px auto;
-        display: block;
-    }
-
     #botones {
-        width: 80%;
-    }
-
-    li {
-        white-space: normal;
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
     }
 }
 
 @media (max-width: 480px) {
-    h1 {
-        font-size: 20px;
-        padding: 8px;
+    #OutDrag, #InDrag {
+        width: 100%;
     }
 
-    #sección-1 {
-        padding: 10px;
-    }
-
-    #OutDrag,
-    #InDrag {
-        width: 180px;
-    }
-
-    #p1,
-    #p2 {
-        width: 180px;
-        font-size: 14px;
+    #foto {
+        width: 100%;
     }
 
     iframe {
@@ -333,7 +288,7 @@ footer {
 
     #botones {
         flex-direction: column;
-        gap: 10px;
-        width: 100%;
+        gap: 6px;
     }
 }
+
