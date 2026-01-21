@@ -1,3 +1,6 @@
+/* =======================
+   Estilos generales (PC)
+======================= */
 h1 {
     color: #FF3B9A;
     text-align: center;
@@ -10,21 +13,26 @@ h1 {
     padding: 10px;
 }
 
+body {
+    background-color: #FFFFFF;
+    font-family: 'Segoe UI';
+    margin: 0;
+    padding: 0;
+}
+
 main {
     color: black;
-    font-family: 'Segoe UI';
     font-size: 16px;
     text-align: justify;
     margin: 10px;
 }
 
 #sección1 {
-    display: flex; 
+    display: flex;
     border: solid black 2px;
     background: linear-gradient(135deg, #F7FAFD, #E9F1F8, #DEEAF4);
-    padding: 10px 10px 1px 10px;
-    margin-left: 1%;
-    margin-bottom: 10%;
+    padding: 10px;
+    margin: 10px auto 50px auto;
     width: fit-content;
 }
 
@@ -35,75 +43,54 @@ main {
     border: dashed black 1px;
 }
 
-#OutDrag { margin-left: 5px; margin-right: 10px; }
-#InDrag { margin-left: 10px; margin-right: 5px; }
+#OutDrag { margin-right: 10px; }
+#InDrag { margin-left: 10px; }
 
-a {
-    color: blue;
-    font-family: 'Segoe UI';
-    font-size: 16px;
-    text-align: center;
-    text-decoration: wavy;
+#bio {
+    display: block;
+    border: solid purple 1px;
+    padding: 2px;
+    background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8);
 }
 
-#p1, #p2 {
-    text-align: center;
-    border: solid black 1px;
-    padding: 1px;
-    margin-top: 10px;
-    background-color: #FFFFFF;
+#bio2 {
+    max-width: 900px; /* Controla el ancho máximo del cuadro */
+    margin: 0 auto;   /* Centrado automático en cualquier dispositivo */
+    padding: 10px;
 }
 
-#p1 { width: 300px; margin-left: 5px; }
-#p2 { width: 300px; margin-left: 10px; }
-
-body {
-    background-color: #FFFFFF;
-}
-
-figure {
-    text-align: center;
-    margin: 0;
-}
-
-h2 {
-    text-decoration: underline;
-    font-family: 'Segoe UI';
-    font-size: 28px;
-    font-weight: bold;
-    background: linear-gradient(to right, #4FC3F7, #81C784);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px black;
-}
-
-#sección2 {
+#bio3 {
     display: flex;
-    align-items: flex-start;
     gap: 20px;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    flex-wrap: wrap;         /* Permite que los items se muevan si no caben */
 }
 
-ol {
-    font-family: 'Segoe UI';
-    font-size: 16px;
-    color: black;
+#InDrag2 {
+    padding: 1px;
+    width: 220px;
+    height: 290px;
 }
 
-li {
-    cursor: pointer;
-    white-space: nowrap;
-    margin-right: 10px;
-    line-height: 1.5;
+#p3 {
+    text-align: center;
+    color: goldenrod;
+    font-size: 32px;
+    border: solid purple 1px;
+    padding: 1px;
+    margin: 10px auto;
+    max-width: 90%;
 }
 
-li:hover { color: palevioletred; }
-
+/* =======================
+   Fotos y descripción
+======================= */
 #fotos {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: fit-content;
-    margin-top: 10px;
+    margin: 10px auto;
 }
 
 #foto {
@@ -115,104 +102,162 @@ li:hover { color: palevioletred; }
 
 #descripción {
     text-align: justify;
-    font-family: 'Segoe UI';
     font-size: 12px;
     max-width: 400px;
-    margin-top: -10px;
+    margin-top: 5px;
     overflow-wrap: break-word;
 }
 
-#s1 { font-family: 'Segoe UI'; font-size: 26px; font-weight: 600; text-align: left; margin: -5px 0 20px 0; background: linear-gradient(to right, #B388FF, #8FD3F4); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-stroke: 0.6px black; word-wrap: break-word; overflow-wrap: break-word; white-space: normal; }
-#s2 { font-family: 'Segoe UI'; font-size: 26px; font-weight: 600; text-align: left; margin: 40px 0 20px 0; background: linear-gradient(to right, #FF3B9A, #9C27B0); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-stroke: 0.6px black; word-wrap: break-word; overflow-wrap: break-word; white-space: normal; }
-#s3 { font-family: 'Segoe UI'; font-size: 26px; font-weight: 600; text-align: left; margin: 40px 0 20px 0; background: linear-gradient(to right, #7bff00c5, #2ED1A2); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-stroke: 0.6px black; word-wrap: break-word; overflow-wrap: break-word; white-space: normal; }
-#s5 { font-family: 'Segoe UI'; font-size: 26px; font-weight: 600; text-align: left; margin: 40px 0 20px 0; background: linear-gradient(to right, #ff6a00, #ffb347); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-stroke: 0.6px black; }
-#s6 { font-family: 'Segoe UI'; font-size: 26px; font-weight: 600; text-align: left; margin: 40px 0 20px 0; background: linear-gradient(to right, #6a11cb, #2575fc); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-stroke: 0.6px black; }
-#s7 { font-family: 'Segoe UI'; font-size: 26px; font-weight: 600; text-align: left; margin: 40px 0 20px 0; background: linear-gradient(to right, #ff0844, #ffb199); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-stroke: 0.6px black; }
+/* =======================
+   Secciones y títulos
+======================= */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(to right, #4FC3F7, #81C784);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#s1, #s2, #s3, #s5, #s6, #s7 {
+    font-size: 26px;
+    font-weight: 600;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 0.6px black;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
 
 #cuadroDos {
     border: dashed black 2px;
-    padding: 10px 0 10px 10px;
+    padding: 10px;
     background: linear-gradient(135deg, #D0E8FF, #A0D6FF);
 }
 
+/* =======================
+   Iframes y videos
+======================= */
 iframe {
     width: 640px;
     height: 360px;
-    border: black solid 2px;
+    border: solid black 2px;
     display: block;
-    margin: 10px auto 0 auto;
+    margin: 10px auto;
     opacity: 0;
     transform: translateY(-30px);
     transition: opacity 0.9s ease, transform 0.9s ease;
-    transition-delay: 0.3s;
 }
 
-iframe.animar { opacity: 1; transform: translateY(0); }
+iframe.animar {
+    opacity: 1;
+    transform: translateY(0);
+}
 
-.videos ol li { cursor: default; color: black; }
-.videos ol li:hover { color: black; }
-
+/* =======================
+   Botones de navegación
+======================= */
 #botones {
-    margin-left: 39.5%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 21%;
+    margin: 20px auto;
 }
-#botones.centrado { justify-content: center; margin-left: 40.5%; }
 
 #previo, #próximo {
-    font-family: 'Segoe UI';
-    background: linear-gradient(135deg,#f5f2ea,#e8e1cf,#d9cfb3);
     font-weight: bold;
     border: solid double black 5px;
     cursor: pointer;
+    background: linear-gradient(135deg,#f5f2ea,#e8e1cf,#d9cfb3);
 }
-#previo { margin-right: 1%; }
-#próximo { margin-left: 1%; }
-#previo:hover, #próximo:hover { background: linear-gradient(135deg,#e8e1cf,#d9cfb3,#cbbf9f); }
 
-/* =======================
-   Bio y cuadros
-======================= */
-#bio { display: block; border: solid purple 1px; margin: -1px 0; padding: 2px; background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8); }
-#bio2 { margin: 0 auto}
-#p3 { text-align: center; color: goldenrod; font-family: 'Segoe UI'; font-size: 32px; border: solid purple 1px; margin: -1px 0; padding: 1px; }
-
-#InDrag2 { padding: 1px; width: 220px; height: 290px; margin: 0 30px; }
-#bio3 { display: flex; gap: 5%; }
-
-#cuadroDos main, #cuadroDos li, #cuadroDos li:hover, #cuadroDos main:hover { white-space: normal; word-wrap: break-word; overflow-wrap: break-word; line-height: 1.5; margin-left: 1%; cursor: default; color: black; }
-#ref li:hover { color: black; cursor: default; }
-
-/* =======================
-   Labels y referencias
-======================= */
-#s8 { margin-right: 6%; padding-bottom: 2%; }
-.label { font-family: 'Segoe UI'; font-size: 14px; font-weight: bold; }
+#previo:hover, #próximo:hover {
+    background: linear-gradient(135deg,#e8e1cf,#d9cfb3,#cbbf9f);
+}
 
 /* =======================
    Animaciones
 ======================= */
 .animable { opacity: 0; transform: translateX(-80px); }
 .animable.animar { opacity: 1; transform: translateX(0); transition: opacity 0.9s ease, transform 0.9s ease; }
-#cuadro3 > div[id^="ep"].activo { opacity: 1; max-height: 5000px; margin-bottom: 20px; }
-#descripción p.animar { transition-delay: 0.08s; }
 
 /* =======================
    Footer
 ======================= */
 footer {
     text-align: center;
-    font-family: 'Segoe UI';
     font-size: 14px;
     background-color: lightgrey;
     margin: 20px 0;
-    padding: 1px 0;
+    padding: 2px 0;
 }
 
-#s7 + ul li a:hover { color: #FF8C00; text-decoration: underline; }
-
 /* =======================
-   Responsive móviles <=480px
-======================= *
+   Responsive para móviles
+======================= */
+@media (max-width: 768px) {
+    #sección1 {
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        padding: 5px;
+    }
+
+    #OutDrag, #InDrag, #InDrag2 {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    #bio3 {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    #bio2, #p3 {
+        max-width: 95%;
+        margin: 10px auto;
+        padding: 5px;
+    }
+
+    #s1, #s2, #s3, #s5, #s6, #s7 {
+        font-size: 18px;
+        text-align: center;
+        -webkit-text-stroke: 0.4px black;
+    }
+
+    #fotos {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    #foto, #descripción {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    #botones {
+        flex-direction: column;
+        width: 60%;
+        margin: 10px auto;
+        gap: 10px;
+    }
+
+    /* Tipografía móvil */
+    .js-text, #cuadro3 > div[id^="ep"] p, #cuadro3 > div[id^="ep"] span {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
