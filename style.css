@@ -20,6 +20,7 @@ main {
 
 #contenedor-1 {
     display: flex;
+    width:auto;
 }
 
 #sección-1 {
