@@ -212,58 +212,86 @@ footer {
 #s7 + ul li a:hover { color: #FF8C00; text-decoration: underline; }
 
 @media (max-width: 900px) {
-    #sección-1 {
-        width: 95%;
-        margin: 10px auto;
-        height: auto;
-    }
 
-    #OutDrag, #InDrag {
-        width: 45%;
-        height: auto;
-    }
-
-    #p1, #p2 {
-        width: 45%;
-    }
-
-    #sección-2 {
-        margin-left: 0;
-        width: 95%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    #botones {
-        width: 40%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    iframe {
-        width: 95%;
-        height: auto;
-    }
-}
-
-@media (max-width: 600px) {
     #contenedor-1 {
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    #OutDrag, #InDrag {
+    #sección-1 {
+        width: 100%;
+        max-width: 680px;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    #OutDrag,
+    #InDrag {
+        width: 48%;
+        height: auto;
+    }
+
+    #p1,
+    #p2 {
+        width: 48%;
+    }
+
+    #sección-2 {
+        margin: 20px auto;
+        width: 95%;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    #botones {
+        width: 50%;
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #contenedor-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sección-1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    #OutDrag,
+    #InDrag {
         width: 90%;
         max-width: 320px;
     }
 
-    #p1, #p2 {
+    #p1,
+    #p2 {
         width: 90%;
     }
 
+    #sección-2 {
+        width: 95%;
+        margin: 15px auto;
+    }
+
     #sección-3 {
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     #foto {
@@ -276,21 +304,34 @@ footer {
     }
 
     #botones {
-        width: 80%;
+        width: 90%;
+        margin: 20px auto;
+        justify-content: space-between;
     }
 
-    #ref {
-        width: 95%;
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    #ref,
+    #ref ul,
+    #ref li {
+        max-width: 100%;
+        white-space: normal;
         overflow-wrap: break-word;
     }
 }
 
 @media (max-width: 420px) {
-    #OutDrag, #InDrag {
+
+    #OutDrag,
+    #InDrag {
         width: 100%;
     }
 
-    #p1, #p2 {
+    #p1,
+    #p2 {
         width: 100%;
     }
 
@@ -298,16 +339,27 @@ footer {
         width: 100%;
     }
 
-    iframe {
-        width: 100%;
-    }
-
     #botones {
         width: 100%;
         justify-content: center;
+        gap: 10px;
     }
 
-    ol, ul {
-        padding-left: 18px;
+    iframe {
+        width: 100%;
     }
 }
+
+@media (max-width: 600px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    li {
+        white-space: normal;
+    }
+}
+

@@ -223,3 +223,7 @@ function animarVideos(capIndex) {
 if (window.innerWidth <= 768) {
     document.body.style.fontFamily = "Arial, Calibri, sans-serif";
 }
+
+if (window.innerWidth <= 600) {
+    document.body.style.fontFamily = "Arial, Calibri, sans-serif";
+}
