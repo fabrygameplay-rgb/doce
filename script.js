@@ -121,7 +121,7 @@ const looks = [
     },
 ];
 
-const number = document.querySelectorAll("#sección2 ol li");
+const number = document.querySelectorAll("#sección-3 ol li");
 const sms = document.querySelector("#descripción p");
 const picture = document.getElementById("foto");
 
