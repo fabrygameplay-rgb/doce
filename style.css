@@ -180,7 +180,7 @@ iframe.animar { opacity: 1; transform: translateY(0); }
 #p3 { text-align: center; color: goldenrod; font-family: 'Segoe UI'; font-size: 32px; border: solid purple 1px; margin: -1px 0; padding: 1px; }
 
 #InDrag2 { padding: 1px; width: 220px; height: 290px; margin: 0 30px; }
-#bio3 { display: flex; gap: 80%; }
+#bio3 { display: flex; gap: 20%; }
 
 #cuadroDos main, #cuadroDos li, #cuadroDos li:hover, #cuadroDos main:hover { white-space: normal; word-wrap: break-word; overflow-wrap: break-word; line-height: 1.5; margin-left: 1%; cursor: default; color: black; }
 #ref li:hover { color: black; cursor: default; }
