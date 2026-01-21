@@ -363,3 +363,19 @@ footer {
     }
 }
 
+@media (max-width: 600px) {
+
+    #sección-1 {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #botones,
+    #botones.centrado {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+}
