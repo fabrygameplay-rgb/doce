@@ -30,7 +30,7 @@ main {
     margin-left: 10px;
     width: 640px;
     height: 466px;
-    margin-right: 220px;
+    margin-right: 200px;
 }
 
 #OutDrag, #InDrag {
@@ -87,6 +87,7 @@ h2 {
     display: block;
     background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8);
     border: solid 1px purple;
+    margin-left: 50px;
 }
 
 #sección-3 {
