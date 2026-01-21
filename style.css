@@ -379,3 +379,15 @@ footer {
         justify-content: center;
     }
 }
+
+@media (max-width: 600px) {
+
+    .out-in-drag,
+    .out-in-drag-container,
+    .drag-container {
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+}
