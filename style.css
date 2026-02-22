@@ -87,7 +87,11 @@ h2 {
     display: block;
     background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8);
     border: solid 1px purple;
-    margin-left: 95px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 #sección-3 {
