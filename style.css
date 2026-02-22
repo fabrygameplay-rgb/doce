@@ -491,3 +491,18 @@ footer a {
     }
 
 }
+
+@media (min-width: 601px) {
+    #ref li {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 600px) {
+    #ref li {
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+}
