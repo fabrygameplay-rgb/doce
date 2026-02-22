@@ -494,15 +494,24 @@ footer a {
 
 @media (min-width: 601px) {
     #ref li {
+        display: block;
+        max-width: 100%;
+    }
+
+    #ref li a {
+        display: inline-block;
+        max-width: 100%;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        vertical-align: middle;
     }
 }
 
 @media (max-width: 600px) {
-    #ref li {
+    #ref li a {
         white-space: normal;
         overflow-wrap: break-word;
+        word-break: break-word;
     }
 }
