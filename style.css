@@ -183,26 +183,95 @@ iframe.animar { opacity: 1; transform: translateY(0); }
     border: solid double black 5px;
     cursor: pointer;
 }
-#previo { margin-right: 1%; }
-#próximo { margin-left: 1%; }
-#previo:hover, #próximo:hover { background: linear-gradient(135deg,#e8e1cf,#d9cfb3,#cbbf9f); }
+#previo { 
+    margin-right: 1%; 
+}
 
-.bio {  border-right: solid purple 1px; border-left: solid purple 1px; border-top: solid 1px purple; margin: 0 1% 0 1%; padding: 2px; background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8); }
-#bio2 { border: solid purple 1px; margin: 0 1% 1% 1%; padding: 2px; background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8);}
-#p3 { text-align: center; color: goldenrod; font-family: 'Segoe UI'; font-size: 32px; border: solid purple 1px; margin: 1%; padding: 1px; }
+#próximo { 
+    margin-left: 1%; 
+}
+#previo:hover, #próximo:hover { 
+    background: linear-gradient(135deg,#e8e1cf,#d9cfb3,#cbbf9f); 
+}
 
-#InDrag2 { padding: 1px; width: 220px; height: 290px; margin: 0 30px; }
+.bio {  
+    border-right: solid purple 1px; 
+    border-left: solid purple 1px; 
+    border-top: solid 1px purple; 
+    margin: 0 1% 0 1%; 
+    padding: 2px; 
+    background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8); 
+}
 
-#cuadroDos main, #cuadroDos li, #cuadroDos li:hover, #cuadroDos main:hover { white-space: normal; word-wrap: break-word; overflow-wrap: break-word; line-height: 1.5; margin-left: 1%; cursor: default; color: black; }
-#ref li:hover { color: black; cursor: default; }
+#bio2 { 
+    border: solid purple 1px; 
+    margin: 0 1% 1% 1%; 
+    padding: 2px; 
+    background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8);
+}
 
-#s8 { margin-right: 6%; padding-bottom: 2%; }
-.label { font-family: 'Segoe UI'; font-size: 14px; font-weight: bold; }
+#p3 { 
+    text-align: center; 
+    color: goldenrod; 
+    font-family: 'Segoe UI'; 
+    font-size: 32px; 
+    border: solid purple 1px; 
+    margin: 1%; 
+    padding: 1px; 
+}
 
-.animable { opacity: 0; transform: translateX(-80px); }
-.animable.animar { opacity: 1; transform: translateX(0); transition: opacity 0.9s ease, transform 0.9s ease; }
-#cuadro3 > div[id^="ep"].activo { opacity: 1; max-height: 5000px; margin-bottom: 20px; }
-#descripción p.animar { transition-delay: 0.08s; }
+#InDrag2 { 
+    padding: 1px; 
+    width: 220px; 
+    height: 290px; 
+    margin: 0 30px; 
+}
+
+#cuadroDos main, #cuadroDos li, #cuadroDos li:hover, #cuadroDos main:hover { 
+    white-space: normal; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    line-height: 1.5; 
+    margin-left: 1%; 
+    cursor: default; 
+    color: black; 
+}
+
+#ref li:hover { 
+    color: black; 
+    cursor: default; 
+}
+
+#s8 { 
+    margin-right: 6%; 
+    padding-bottom: 2%; 
+}
+
+.label { 
+    font-family: 'Segoe UI'; 
+    font-size: 14px; 
+    font-weight: bold; 
+}
+
+.animable { 
+    opacity: 0; 
+    transform: translateX(-80px); 
+}
+
+.animable.animar { 
+    opacity: 1; 
+    transform: translateX(0); 
+    transition: opacity 0.9s ease, transform 0.9s ease; 
+}
+
+#cuadro3 > div[id^="ep"].activo { 
+    opacity: 1; max-height: 5000px; 
+    margin-bottom: 20px; 
+}
+
+#descripción p.animar { 
+    transition-delay: 0.08s; 
+}
 
 footer {
     text-align: center;
@@ -213,7 +282,15 @@ footer {
     padding: 1px 0;
 }
 
-#s7 + ul li a:hover { color: #FF8C00; text-decoration: underline; }
+footer a {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+#s7 + ul li a:hover { 
+    color: #FF8C00; 
+    text-decoration: underline; 
+}
 
 @media (max-width: 900px) {
 
