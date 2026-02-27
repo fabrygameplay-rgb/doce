@@ -477,9 +477,6 @@ footer {
 
     h2, #s1, #s2, #s3, #s5, #s6, #s7 {
         -webkit-text-stroke: 0;
-        -webkit-text-fill-color: initial;
-        background: none;
-        color: black;
     }
 }
 
