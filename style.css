@@ -1,3 +1,12 @@
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 h1 {
     color: #FF3B9A;
     text-align: center;
@@ -361,7 +370,6 @@ footer {
 
     body {
         overflow-x: hidden;
-        font-family: Arial, Helvetica, sans-serif;
     }
 
     img {
@@ -401,10 +409,6 @@ footer {
         margin-right: 0;
     }
 
-    #cuadroDos {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
     #sección-1 {
         margin-left: auto;
         margin-right: auto;
@@ -426,12 +430,11 @@ footer {
     }
 
     #descripción {
-        max-width: 90%;
+        font-size: 14px;
     }
 
     #botones,
     #botones.centrado {
-        font-family: Arial, Helvetica, sans-serif;
         width: 100%;
         margin: 20px auto;
         justify-content: center;
@@ -440,7 +443,6 @@ footer {
 
     #previo,
     #próximo {
-        font-family: Arial, Helvetica, sans-serif;
         padding: 6px 12px;
         font-size: 13px;
         min-width: 90px;
@@ -458,33 +460,30 @@ footer {
     #ref,
     #ref ul,
     #ref li {
-        font-family: Arial, Helvetica, sans-serif;
         max-width: 100%;
         white-space: normal;
         overflow-wrap: break-word;
     }
 
     #ref li a {
-        font-family: Arial, Helvetica, sans-serif;
         white-space: normal;
         word-break: break-word;
         overflow-wrap: break-word;
     }
 
+    #ref li {
+        font-size: 14px;
+    }
+
     h2, #s1, #s2, #s3, #s5, #s6, #s7 {
-        -webkit-text-stroke: 0.3px black;
+        -webkit-text-stroke: 0;
+        -webkit-text-fill-color: initial;
+        background: none;
+        color: black;
     }
 }
 
 @media (max-width: 420px) {
-
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    #cuadroDos {
-        font-family: Arial, Helvetica, sans-serif;
-    }
 
     #OutDrag,
     #InDrag,
@@ -495,13 +494,11 @@ footer {
     }
 
     #botones {
-        font-family: Arial, Helvetica, sans-serif;
         width: 100%;
     }
 
     #previo,
     #próximo {
-        font-family: Arial, Helvetica, sans-serif;
         width: 45%;
         min-width: unset;
     }
