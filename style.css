@@ -60,8 +60,15 @@ a {
     background-color: #FFFFFF;
 }
 
-#p1 { width: 300px; margin-left: 5px; }
-#p2 { width: 300px; margin-left: 10px; }
+#p1 { 
+    width: 300px; 
+    margin-left: 5px; 
+}
+
+#p2 { 
+    width: 300px; 
+    margin-left: 10px; 
+}
 
 body {
     background-color: #FFFFFF;
@@ -281,9 +288,21 @@ footer {
     padding: 1px 0;
 }
 
-footer a {
-    word-break: break-word;
-    overflow-wrap: break-word;
+#ref {
+    list-style-position: outside;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#ref li {
+    margin-bottom: 8px;
+}
+
+#ref li a {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #s7 + ul li a:hover { 
@@ -317,8 +336,8 @@ footer a {
     }
 
     #sección-2 {
-        margin: 20px auto;
         width: 95%;
+        margin: 20px auto;
     }
 
     iframe {
@@ -331,13 +350,22 @@ footer a {
         margin: 20px auto;
         justify-content: space-between;
     }
-}
 
+    #ref {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
 
 @media (max-width: 600px) {
 
     body {
         overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
     }
 
     #contenedor-1 {
@@ -346,22 +374,30 @@ footer a {
     }
 
     #sección-1 {
-        flex-direction: column;
-        align-items: center;
         width: 100%;
         max-width: 100%;
         margin: 10px auto;
+        padding: 10px;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
     }
 
     #OutDrag,
     #InDrag {
         width: 90%;
         max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
     }
 
     #p1,
     #p2 {
-        width: 90%;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     #sección-2 {
@@ -383,15 +419,24 @@ footer a {
         max-width: 90%;
     }
 
-    #botones {
-        width: 90%;
+    #botones,
+    #botones.centrado {
+        width: 100%;
         margin: 20px auto;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 15px;
+        padding: 8px 16px;
+        font-size: 14px;
+        min-width: 110px;
     }
 
     iframe {
         width: 100%;
         height: auto;
+    }
+
+    li {
+        white-space: normal;
     }
 
     #ref,
@@ -406,112 +451,21 @@ footer a {
 @media (max-width: 420px) {
 
     #OutDrag,
-    #InDrag {
-        width: 100%;
-    }
-
+    #InDrag,
     #p1,
-    #p2 {
-        width: 100%;
-    }
-
+    #p2,
     #foto {
         width: 100%;
     }
 
     #botones {
         width: 100%;
-        justify-content: center;
-        gap: 10px;
     }
 
-    iframe {
-        width: 100%;
-    }
-}
-
-@media (max-width: 600px) {
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-width: 600px) {
-    li {
-        white-space: normal;
-    }
-}
-
-@media (max-width: 600px) {
-
-    #sección-1 {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0;
-        padding-right: 0;
+    #previo,
+    #próximo {
+        width: 45%;
+        min-width: unset;
     }
 
-    #botones,
-    #botones.centrado {
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 600px) {
-
-    .out-in-drag,
-    .out-in-drag-container,
-    .drag-container {
-        padding-left: 10px;
-        padding-right: 10px;
-        box-sizing: border-box;
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    #sección-1 {
-        width: 100%;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 10px;
-        padding-right: 10px;
-        box-sizing: border-box;
-    }
-
-    #OutDrag,
-    #InDrag {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-}
-
-@media (min-width: 601px) {
-    #ref li {
-        display: block;
-        max-width: 100%;
-    }
-
-    #ref li a {
-        display: inline-block;
-        max-width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        vertical-align: middle;
-    }
-}
-
-@media (max-width: 600px) {
-    #ref li a {
-        white-space: normal;
-        overflow-wrap: break-word;
-        word-break: break-word;
-    }
 }
