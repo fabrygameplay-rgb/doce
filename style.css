@@ -478,6 +478,11 @@ footer {
     h2, #s1, #s2, #s3, #s5, #s6, #s7 {
         -webkit-text-stroke: 0;
     }
+
+    #s3 {
+    filter: brightness(0.85) contrast(1.2);
+    }
+
 }
 
 @media (max-width: 420px) {
