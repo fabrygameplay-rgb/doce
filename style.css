@@ -32,7 +32,7 @@ main {
     padding: 1% 1% 0% 1%;
     border: solid black 4px;
     margin-left: 10px;
-    width: 640px;
+    width: 660px;
     height: 466px;
     margin-right: 200px;
 }
@@ -404,6 +404,10 @@ footer {
         margin-right: 0;
     }
 
+    #cuadroDos {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     #sección-1 {
         margin-left: auto;
         margin-right: auto;
@@ -430,6 +434,7 @@ footer {
 
     #botones,
     #botones.centrado {
+        font-family: Arial, Helvetica, sans-serif;
         width: 100%;
         margin: 20px auto;
         justify-content: center;
@@ -438,6 +443,7 @@ footer {
 
     #previo,
     #próximo {
+        font-family: Arial, Helvetica, sans-serif;
         padding: 6px 12px;
         font-size: 13px;
         min-width: 90px;
@@ -455,12 +461,14 @@ footer {
     #ref,
     #ref ul,
     #ref li {
+        font-family: Arial, Helvetica, sans-serif;
         max-width: 100%;
         white-space: normal;
         overflow-wrap: break-word;
     }
 
     #ref li a {
+        font-family: Arial, Helvetica, sans-serif;
         white-space: normal;
         word-break: break-word;
         overflow-wrap: break-word;
@@ -473,6 +481,10 @@ footer {
 
 @media (max-width: 420px) {
 
+    #cuadroDos {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     #OutDrag,
     #InDrag,
     #p1,
@@ -482,11 +494,13 @@ footer {
     }
 
     #botones {
+        font-family: Arial, Helvetica, sans-serif;
         width: 100%;
     }
 
     #previo,
     #próximo {
+        font-family: Arial, Helvetica, sans-serif;
         width: 45%;
         min-width: unset;
     }
