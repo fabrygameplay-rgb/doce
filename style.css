@@ -488,27 +488,3 @@ footer {
     }
 
 }
-
-/*smaller phones*/
-
-@media (max-width: 420px) and (orientation: portrait) {
-
-    #OutDrag,
-    #InDrag,
-    #p1,
-    #p2,
-    #foto {
-        width: 100%;
-    }
-
-    #botones {
-        width: 100%;
-    }
-
-    #previo,
-    #próximo {
-        width: 45%;
-        min-width: unset;
-    }
-
-}
