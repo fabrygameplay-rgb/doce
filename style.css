@@ -319,7 +319,9 @@ footer {
     text-decoration: underline; 
 }
 
-@media (max-width: 900px) {
+/*Tablets*/
+
+@media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape) {
 
     #contenedor-1 {
         flex-wrap: wrap;
@@ -366,7 +368,9 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+/* Average phones*/
+
+@media (max-width: 576px) and (orientation: portrait) {
 
     body {
         overflow-x: hidden;
@@ -485,7 +489,9 @@ footer {
 
 }
 
-@media (max-width: 420px) {
+/*smaller phones*/
+
+@media (max-width: 420px) and (orientation: portrait) {
 
     #OutDrag,
     #InDrag,
