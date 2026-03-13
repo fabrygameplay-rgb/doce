@@ -339,8 +339,14 @@ footer {
         margin-right: 0;
     }
 
-    figure {
-        display: block;
+    #OutDrag, #InDrag {
+        width: 100%;
+        height: auto;
+    }
+
+    #p1, #p2 {
+        width: 100%;
+        margin-left: 0;
     }
 
     #sección-2 {
@@ -352,9 +358,16 @@ footer {
         margin: 20px auto;
         padding: 10px;
         box-sizing: border-box;
+        margin-top: 0px;
     }
 
+    #s8 li {
+        font-size: 12px;
+    }
 
+    #fotos, #descripción {
+        margin-right: 10px;
+    }
 }
 
 /*Landscape Tablet */
