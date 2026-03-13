@@ -598,8 +598,8 @@ footer {
         margin-top: 0px;
     }
 
-    #s5 img {
-        width: 100%;
+    article #s5 {
+        max-width: 100%;
 
     }
 
