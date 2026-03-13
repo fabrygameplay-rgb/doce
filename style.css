@@ -335,6 +335,22 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+    figure {
+        display: block;
+    }
+
+    #sección-2 {
+        display: block;
+        background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8);
+        border: solid 1px purple;
+        width: 100%;
+        margin: 20px auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+
 }
 
 /*Landscape Tablet */
