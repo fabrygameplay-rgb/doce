@@ -558,33 +558,42 @@ footer {
 
 @media (min-width: 577px) and (max-width: 767px) and (orientation: landscape) {
 
+    #sección-1 { 
+        display: flex; 
+        flex-direction: column; 
+        width: 340px; height: auto;
+        margin-right: 0; gap: 4px; 
+    } 
+    
+    #OutDrag, #InDrag { 
+        width: 100%; 
+        height: auto; 
+        margin-left: 0; 
+        margin-right: 0; 
+    } 
+    
+    #p1, #p2 { 
+        width: 100%; 
+        margin-left: 0; 
+        margin-right: 0; 
+    } 
+    
+    #sección-2 { 
+        display: block; 
+        background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8); 
+        border: solid 1px purple; 
+        width: 300px; 
+        height: 340px; 
+        margin: 20px auto; 
+        padding: 10px; 
+        box-sizing: border-box; 
+        margin-top: 0px; 
+    }
+
     #contenedor-1 {
         flex-direction: column;
         align-items: center;
         gap: 20px;
-    }
-
-    #sección-1 {
-        width: 340px;
-        height: auto;
-        margin-right: 0;
-    }
-
-    #OutDrag, #InDrag {
-        width: 100%;
-        height: auto;
-        margin: 0;
-    }
-
-    #p1, #p2 {
-        width: 100%;
-        margin: 0;
-    }
-
-    #sección-2 {
-        width: 300px;
-        height: auto;
-        margin: 20px auto;
     }
 
     #s5 + img {
