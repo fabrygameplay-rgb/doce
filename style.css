@@ -326,14 +326,17 @@ footer {
 
     #contenedor-1 {
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap; 
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
     }
 
     #sección-1 {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        width: 320px;
+        height: auto;
+        margin-right: 0;
     }
 
     figure {
