@@ -565,12 +565,13 @@ footer {
 
 @media (min-width: 577px) and (max-width: 767px) and (orientation: landscape) {
 
-        #sección-1 {
+    #sección-1 {
         display: flex;
         flex-direction: column;
         width: 340px;
         height: auto;
         margin-right: 0;
+        gap: 4px;
     }
 
     #OutDrag, #InDrag {
@@ -591,15 +592,15 @@ footer {
         background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8);
         border: solid 1px purple;
         width: 300px;
-        height: auto;
+        height: 340px;
         margin: 20px auto;
         padding: 10px;
         box-sizing: border-box;
         margin-top: 0px;
     }
 
-    article #s5 {
-        max-width: 100%;
+    #s5 img {
+        width:auto;
 
     }
 
