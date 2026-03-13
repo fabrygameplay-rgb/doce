@@ -365,6 +365,14 @@ footer {
         font-size: 10px;
     }
 
+    #s8 {
+        font-size: 10px;
+    }
+
+    article h2 {
+        margin-left: 15px;
+    }
+
     #sección-3 {
         display: flex;
         padding-right: 30px;
