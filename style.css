@@ -342,11 +342,14 @@ footer {
     #OutDrag, #InDrag {
         width: 100%;
         height: auto;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     #p1, #p2 {
         width: 100%;
         margin-left: 0;
+        margin-right: 0;
     }
 
     #sección-2 {
