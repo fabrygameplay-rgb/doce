@@ -361,13 +361,15 @@ footer {
         margin-top: 0px;
     }
 
-    #s8 li {
-        font-size: 12px;
+    #ol {
+        font-size: 11px;
     }
 
-    #fotos, #descripción {
-        margin-right: 10px;
+    #sección-3 {
+        display: flex;
+        padding-right: 10px;
     }
+
 }
 
 /*Landscape Tablet */
