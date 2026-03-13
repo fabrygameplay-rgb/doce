@@ -477,6 +477,11 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+    
+    article h2 {
+        margin-left: 10px;
+        font-size: 12px;
+    }
 
     #sección-1 {
         margin-left: auto;
@@ -501,6 +506,7 @@ footer {
 
     #descripción {
         font-size: 14px;
+        padding: 0px 10px;
     }
 
     #botones,
