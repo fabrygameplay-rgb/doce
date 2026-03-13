@@ -334,7 +334,7 @@ footer {
     #sección-1 {
         display: flex;
         flex-direction: column;
-        width: 320px;
+        width: 340px;
         height: auto;
         margin-right: 0;
     }
@@ -362,12 +362,12 @@ footer {
     }
 
     #ol {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     #sección-3 {
         display: flex;
-        padding-right: 10px;
+        padding-right: 30px;
     }
 
 }
