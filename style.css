@@ -401,14 +401,12 @@ footer {
         box-sizing: border-box;
     }
 
-    #OutDrag,
-    #InDrag {
+    #OutDrag, #InDrag {
         width: 48%;
         height: auto;
     }
 
-    #p1,
-    #p2 {
+    #p1, #p2 {
         width: 48%;
     }
 
@@ -462,8 +460,7 @@ footer {
         align-items: center;
     }
 
-    #OutDrag,
-    #InDrag {
+    #OutDrag, #InDrag {
         width: 90%;
         max-width: 320px;
         margin-left: auto;
@@ -509,16 +506,14 @@ footer {
         padding: 0px 20px;
     }
 
-    #botones,
-    #botones.centrado {
+    #botones, #botones.centrado {
         width: 100%;
         margin: 20px auto;
         justify-content: center;
         gap: 10px;
     }
 
-    #previo,
-    #próximo {
+    #previo, #próximo {
         padding: 6px 12px;
         font-size: 13px;
         min-width: 90px;
@@ -533,9 +528,7 @@ footer {
         white-space: normal;
     }
 
-    #ref,
-    #ref ul,
-    #ref li {
+    #ref, #ref ul, #ref li {
         max-width: 100%;
         white-space: normal;
         overflow-wrap: break-word;
@@ -565,48 +558,43 @@ footer {
 
 @media (min-width: 577px) and (max-width: 767px) and (orientation: landscape) {
 
-    #sección-1 {
-        display: flex;
+    #contenedor-1 {
         flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #sección-1 {
         width: 340px;
         height: auto;
         margin-right: 0;
-        gap: 4px;
     }
 
     #OutDrag, #InDrag {
         width: 100%;
         height: auto;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
     }
 
     #p1, #p2 {
         width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
     }
 
     #sección-2 {
-        display: block;
-        background: linear-gradient(135deg,#F4F7FF,#E6ECFF,#D9E2FF,#ECE6F8);
-        border: solid 1px purple;
         width: 300px;
-        height: 340px;
+        height: auto;
         margin: 20px auto;
-        padding: 10px;
-        box-sizing: border-box;
-        margin-top: 0px;
     }
 
-    #s5 img {
-        width:auto;
-
+    #s5 + img {
+        max-width: 100%;
+        height: auto;
     }
 
     iframe {
         width: 100%;
         height: 250px;
     }
-    
+
 }
