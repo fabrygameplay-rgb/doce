@@ -480,7 +480,7 @@ footer {
     
     article h2 {
         margin-left: 10px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     #sección-1 {
@@ -564,5 +564,46 @@ footer {
 /*Landscape Phone */
 
 @media (min-width: 577px) and (max-width: 767px) and (orientation: landscape) {
+
+    #contenedor-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sección-1 {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #OutDrag,
+    #InDrag {
+        width: 90%;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    #p1, #p2 {
+        width: 90%;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #s5 img {
+        width: 100%;
+
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
     
 }
