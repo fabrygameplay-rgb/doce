@@ -319,7 +319,6 @@ footer {
     text-decoration: underline; 
 }
 
-
 /*Portrait Tablet */
 
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
@@ -570,7 +569,7 @@ footer {
         flex-direction: column; 
         width: 280px; height: auto;
         margin-right: 0; gap: 4px; 
-        padding-right: 3%;
+        padding-right: 2%;
     } 
     
     #OutDrag, #InDrag { 
@@ -612,6 +611,10 @@ footer {
         width: auto;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    h2, #s1, #s2, #s3, #s5, #s6, #s7 {
+        -webkit-text-stroke: 0;
     }
 
 }
